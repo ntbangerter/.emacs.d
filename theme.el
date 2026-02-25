@@ -1,4 +1,3 @@
-;; Drop custom theme files into ~/.emacs.d/themes/ and update my-theme-dark below.
 (add-to-list 'custom-theme-load-path (expand-file-name "themes" user-emacs-directory))
 
 (defvar my-theme-light 'doom-flatwhite)
@@ -8,10 +7,8 @@
 (defun my-theme-apply-light-faces ()
   (set-face-attribute 'line-number nil :slant 'italic :background 'unspecified)
   (set-face-attribute 'window-divider nil :foreground "#f7f3ee")
-  ;; Active modeline: soft blue to stand out from inactive
   (set-face-attribute 'mode-line nil :background "#dde4f2")
   (set-face-attribute 'mode-line-inactive nil :background "#f1ece4")
-  ;; diff-hl: use flatwhite's blend colors for visible but harmonious indicators
   (with-eval-after-load 'diff-hl
     (set-face-attribute 'diff-hl-insert nil :background "#84bd00" :foreground "#84bd00")
     (set-face-attribute 'diff-hl-change nil :background "#f08c00" :foreground "#f08c00")

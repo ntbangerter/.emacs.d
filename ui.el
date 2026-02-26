@@ -36,7 +36,7 @@
 	;; Version control info
 	(:eval (when-let (vc vc-mode)
 			 ;; Use a pretty branch symbol in front of the branch name
-			 (list (propertize "   " 'face 'font-lock-comment-face)
+			 (list (propertize "   " 'face 'font-lock-comment-face)
                    ;; Truncate branch name to 50 characters
 				   (propertize (truncate-string-to-width
                                 (substring vc 5) 50)

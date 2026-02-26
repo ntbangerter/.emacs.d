@@ -19,14 +19,14 @@
 ;;; Load Files
 ;;; ============================================================
 
-(load "~/.emacs.d/general.el")
-(load "~/.emacs.d/ui.el")
-(load "~/.emacs.d/completion-ui.el")
-(load "~/.emacs.d/ai-term.el")
-(load "~/.emacs.d/dev-tools.el")
-(load "~/.emacs.d/theme.el")
-(load "~/.emacs.d/python.el")
-(load "~/.emacs.d/go.el")
+(load "~/.emacs.d/config/general.el")
+(load "~/.emacs.d/config/ui.el")
+(load "~/.emacs.d/config/completion-ui.el")
+(load "~/.emacs.d/config/ai-term.el")
+(load "~/.emacs.d/config/dev-tools.el")
+(load "~/.emacs.d/config/theme.el")
+(load "~/.emacs.d/config/python.el")
+(load "~/.emacs.d/config/go.el")
 
 ;;; ============================================================
 ;;; EOF

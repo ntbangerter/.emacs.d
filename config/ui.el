@@ -7,6 +7,7 @@
 (setq window-divider-default-bottom-width 16)
 (setq window-divider-default-places t)
 (window-divider-mode)
+(set-face-attribute 'default nil :height 140)
 
 ;; disable this on MacOS, throws an error otherwise
 (when (string= system-type "darwin")
